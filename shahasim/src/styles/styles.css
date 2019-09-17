@@ -1,0 +1,114 @@
+.nav-div-img, .nav-div-text {
+    display: inline-block;
+}
+
+.nav-img-r {
+    margin-right: 10px;
+    width: 80px;
+    height: 80px;
+}
+
+.nav-nombre {
+    font-size: 25px;
+    margin-right: 13px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.nav-lema {
+    font-style: italic;
+    font-size: 18px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.inicio-slide img {
+    margin: auto;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.text-white {
+    color: white;
+}
+
+.fa-size-md {
+    font-size: 45px;
+}
+
+.hr-footer {
+    border: 1px solid rgba(255, 255, 255, 0.26);
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.no-mb {
+    margin-bottom: 0px !important;
+}
+
+.no-p {
+    padding-bottom: 0px;
+}
+
+.p-first {
+    padding-top: 25px !important;
+    padding-bottom: 25px !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .nav-div-text {
+        text-align: center;
+    }
+    .nav-nombre, .nav-lema {
+        display: block;
+        margin-right: 0px;
+    }
+    .nav-img-r {
+        width: 60px;
+        height: 60px;
+        vertical-align: text-bottom;
+    }
+    .navbar-brand {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 600px) { 
+    .nav-img-r {
+        display: none;
+    }
+    .navbar-brand {
+        margin: 0 auto;
+        text-align: center;
+    }
+    .nav-nombre {
+        font-size: 18px;
+        margin-right: 0px;
+    }
+    .nav-lema {
+        font-size: 10px;
+        display: block;
+    }
+ }
+
+ #myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #555; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 10px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+  }
+  
+  #myBtn:hover {
+    background-color: black; /* Add a dark-grey background on hover */
+    border: 1px solid white;
+  }
