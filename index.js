@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 app.post('/api/form', (req, res) => {
     const { inputNombre, inputApellidos, inputCelular, inputEdad } = req.body;
-
+    /*
     nodemailer.createTestAccount((err, account) => {
         const htmlEmail = `
             <h3>Detalles del contacto</h3>
@@ -46,8 +46,9 @@ app.post('/api/form', (req, res) => {
             console.log('Message URL %s', nodemailer.getTestMessageUrl(info));
         });
     });
-
+    */
     console.log(req.body);
+    res.send('Sent email');
 });
 
 app.listen(port, () => console.log(`Server listen on port ${port}`));
